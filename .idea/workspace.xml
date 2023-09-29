@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created 3rd &amp; 4th test">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Ran all tests, all passed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest">
+  <component name="RunManager" selected="JUnit.JunitTest.minusEightPlusMinusEightEqualsMinusSixteen">
     <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,11 +67,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTest.twoPlusTwoEqualsFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitTest.fivePlusSixEqualsEleven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JunitTest" />
-      <option name="METHOD_NAME" value="twoPlusTwoEqualsFour" />
+      <option name="METHOD_NAME" value="fivePlusSixEqualsEleven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.minusEightPlusMinusEightEqualsMinusSixteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="minusEightPlusMinusEightEqualsMinusSixteen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.minusSixPlusSixEqualsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="minusSixPlusSixEqualsZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.sixPlusSixEqualsTwentyFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="sixPlusSixEqualsTwentyFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,8 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest.minusEightPlusMinusEightEqualsMinusSixteen" />
+        <item itemvalue="JUnit.JunitTest.minusSixPlusSixEqualsZero" />
+        <item itemvalue="JUnit.JunitTest.sixPlusSixEqualsTwentyFour" />
+        <item itemvalue="JUnit.JunitTest.fivePlusSixEqualsEleven" />
         <item itemvalue="JUnit.JunitTest" />
-        <item itemvalue="JUnit.JunitTest.twoPlusTwoEqualsFour" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695981395089</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ran all tests, all passed">
+      <option name="closed" value="true" />
+      <created>1695981485327</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695981485327</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +210,7 @@
     <MESSAGE value="Finished code &amp; ran 1st test" />
     <MESSAGE value="Created 2nd test" />
     <MESSAGE value="Created 3rd &amp; 4th test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 3rd &amp; 4th test" />
+    <MESSAGE value="Ran all tests, all passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ran all tests, all passed" />
   </component>
 </project>
