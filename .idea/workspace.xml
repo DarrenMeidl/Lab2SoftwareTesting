@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Changed else if statements to use &amp;&amp; instead of ||">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created love6 method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
@@ -58,12 +58,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest.weekdayFalseVacationFalse">
+  <component name="RunManager" selected="JUnit.JunitTest.aEqualsSixBEqualsSix">
     <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JunitTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.aEqualsSixBEqualsSix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="aEqualsSixBEqualsSix" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,23 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTest.weekdayTrueVacationTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2SoftwareTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitTest" />
-      <option name="METHOD_NAME" value="weekdayTrueVacationTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest.aEqualsSixBEqualsSix" />
         <item itemvalue="JUnit.JunitTest.weekdayFalseVacationFalse" />
         <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="JUnit.JunitTest.weekdayTrueVacationFalse" />
         <item itemvalue="JUnit.JunitTest.weekdayFalseVacationTrue" />
-        <item itemvalue="JUnit.JunitTest.weekdayTrueVacationTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696021720697</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Created love6 method">
+      <option name="closed" value="true" />
+      <created>1696022532473</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696022532473</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -320,6 +328,7 @@
     <MESSAGE value="comment changes" />
     <MESSAGE value="Created 4 tests for sleepInInt, Test 4 failed" />
     <MESSAGE value="Changed else if statements to use &amp;&amp; instead of ||" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed else if statements to use &amp;&amp; instead of ||" />
+    <MESSAGE value="Created love6 method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created love6 method" />
   </component>
 </project>
