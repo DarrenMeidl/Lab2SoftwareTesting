@@ -18,5 +18,6 @@ public class Junit {
         else if (weekday == true || vacation == false){
             return false;
         }
+        return false;
     }
 }
