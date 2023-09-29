@@ -311,9 +311,42 @@ class JunitTest {
 
     @Test
     void aEqualsMinusThreeBEqualsMinusThree(){
-        System.out.println("TEST 4: a-3, b-3");
+        System.out.println("TEST 5: a-3, b-3");
         int num1 = -3;
         int num2 = -3;
+        Junit j = new Junit();
+        boolean expected = false;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aEqualsNineBEqualsThree(){
+        System.out.println("TEST 6: a9, b3");
+        int num1 = 9;
+        int num2 = 3;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aEqualsNineBEqualsMinusThree(){
+        System.out.println("TEST 7: a9, b-3");
+        int num1 = 9;
+        int num2 = -3;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aEqualsThreeBEqualsNine(){
+        System.out.println("TEST 8: a3, b9");
+        int num1 = 3;
+        int num2 = 9;
         Junit j = new Junit();
         boolean expected = false;
         boolean actual = j.love6(num1, num2);
