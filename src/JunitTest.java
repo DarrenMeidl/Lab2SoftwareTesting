@@ -14,4 +14,15 @@ class JunitTest {
         int actual = j.add2Nums(num1, num2);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void fivePlusSixEqualsEleven() {
+        System.out.println("Test 1 - 2 + 2");
+        int num1 = 5;
+        int num2 = 6;
+        Junit j = new Junit();
+        int expected = 11;
+        int actual = j.add2Nums(num1, num2);
+        assertEquals(expected, actual);
+    }
 }

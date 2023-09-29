@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Added print &amp; two ints to test">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Finished code &amp; ran 1st test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
@@ -56,7 +56,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JunitTest">
+    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JunitTest.twoPlusTwoEqualsFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="JUnit.JunitTest.twoPlusTwoEqualsFour" />
       </list>
     </recent_temporary>
@@ -122,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695980556253</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished code &amp; ran 1st test">
+      <option name="closed" value="true" />
+      <created>1695980774635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695980774635</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +149,7 @@
     <MESSAGE value="Created Junit test class" />
     <MESSAGE value="Deleted &amp; Recreated JunitTest file" />
     <MESSAGE value="Added print &amp; two ints to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added print &amp; two ints to test" />
+    <MESSAGE value="Finished code &amp; ran 1st test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished code &amp; ran 1st test" />
   </component>
 </project>
