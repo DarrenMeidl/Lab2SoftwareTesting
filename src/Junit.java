@@ -50,10 +50,10 @@ public class Junit {
 
     //love6 Q5
     public boolean love6(int a, int b){
-        if (Math.abs(a) == 6 || Math.abs(b) == 6){
+        if (a == 6 || b == 6){
             return true;
         }
-        else if ((Math.abs(a) + Math.abs(b)) == 6 || (Math.abs(a) - Math.abs(b)) == 6){
+        else if (a + b == 6 || a - b == 6){
             return true;
         }
         else {

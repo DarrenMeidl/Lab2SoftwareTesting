@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created 1st test">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created more tests, fixing love6 method code to add &amp; subtract a &amp; b">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +57,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest.aEqualsMinusThreeBEqualsMinusThree">
+  <component name="RunManager" selected="JUnit.JunitTest">
+    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JunitTest.aEqualsMinusThreeBEqualsMinusThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JunitTest" />
       <option name="METHOD_NAME" value="aEqualsMinusThreeBEqualsMinusThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitTest.aEqualsSixBEquals12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2SoftwareTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitTest" />
-      <option name="METHOD_NAME" value="aEqualsSixBEquals12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="JUnit.JunitTest.aEqualsMinusThreeBEqualsMinusThree" />
+        <item itemvalue="JUnit.JunitTest.aEqualsSixBEqualsSix" />
         <item itemvalue="JUnit.JunitTest.aEqualsThreeBEqualsThree" />
         <item itemvalue="JUnit.JunitTest.aEqualsZeroBEqualsSix" />
-        <item itemvalue="JUnit.JunitTest.aEqualsSixBEquals12" />
-        <item itemvalue="JUnit.JunitTest.aEqualsSixBEqualsSix" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696023143195</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Created more tests, fixing love6 method code to add &amp; subtract a &amp; b">
+      <option name="closed" value="true" />
+      <created>1696024183770</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696024183770</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,6 +345,18 @@
     <MESSAGE value="Changed else if statements to use &amp;&amp; instead of ||" />
     <MESSAGE value="Created love6 method" />
     <MESSAGE value="Created 1st test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 1st test" />
+    <MESSAGE value="Created more tests, fixing love6 method code to add &amp; subtract a &amp; b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created more tests, fixing love6 method code to add &amp; subtract a &amp; b" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JunitTest.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
