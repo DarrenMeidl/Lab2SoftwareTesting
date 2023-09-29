@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created copy of sleepIn &amp; modified it to use an integer">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created test 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "create.test.in.the.same.root": "true",
-    "onboarding.tips.debug.path": "C:/Users/dmeid/IdeaProjects/Lab2SoftwareTesting/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/dmeid/IdeaProjects/Lab2SoftwareTesting/src/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -261,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695986961124</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created test 1">
+      <option name="closed" value="true" />
+      <created>1695987236073</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695987236073</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +290,7 @@
     <MESSAGE value="Created 4 methods, ecountered 2 test fails" />
     <MESSAGE value="Fixed monkeyTrouble method, all 4 tests pass" />
     <MESSAGE value="Created copy of sleepIn &amp; modified it to use an integer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created copy of sleepIn &amp; modified it to use an integer" />
+    <MESSAGE value="Created test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created test 1" />
   </component>
 </project>
