@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created Junit test class">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Deleted &amp; Recreated JunitTest file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2SoftwareTesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2SoftwareTesting.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,13 +89,22 @@
       <option name="project" value="LOCAL" />
       <updated>1695980219784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted &amp; Recreated JunitTest file">
+      <option name="closed" value="true" />
+      <created>1695980460033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695980460033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created new project" />
     <MESSAGE value="Created Junit java file" />
     <MESSAGE value="Created Junit test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Junit test class" />
+    <MESSAGE value="Deleted &amp; Recreated JunitTest file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted &amp; Recreated JunitTest file" />
   </component>
 </project>
