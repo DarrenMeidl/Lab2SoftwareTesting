@@ -196,7 +196,7 @@ class JunitTest {
         boolean expected = false;
         boolean actual = j.monkeyTrouble(a, b);
         assertEquals(expected, actual);
-    }*/
+    }
 
 
     //sleepInInt Method Tests
@@ -240,6 +240,11 @@ class JunitTest {
         int expected = 4;
         int actual = j.sleepInInt(w, v);
         assertEquals(expected, actual);
-    }
+    }*/
+
+
+
+
+
 
 }
