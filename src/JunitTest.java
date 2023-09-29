@@ -28,7 +28,7 @@ class JunitTest {
 
     @Test
     void threePlusMinusFiveEqualsMinusTwo() {
-        System.out.println("Test 3 - 5 + -5");
+        System.out.println("Test 3 - 3 + -5");
         int num1 = 3;
         int num2 = -5;
         Junit j = new Junit();
