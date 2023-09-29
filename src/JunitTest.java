@@ -17,11 +17,33 @@ class JunitTest {
 
     @Test
     void fivePlusSixEqualsEleven() {
-        System.out.println("Test 1 - 2 + 2");
+        System.out.println("Test 2 - 5 + 6");
         int num1 = 5;
         int num2 = 6;
         Junit j = new Junit();
         int expected = 11;
+        int actual = j.add2Nums(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void threePlusMinusFiveEqualsMinusTwo() {
+        System.out.println("Test 3 - 5 + -5");
+        int num1 = 3;
+        int num2 = -5;
+        Junit j = new Junit();
+        int expected = -2;
+        int actual = j.add2Nums(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void minusFivePlusMinusSixEqualsMinusEleven() {
+        System.out.println("Test 4 - -5 + -6");
+        int num1 = -5;
+        int num2 = -6;
+        Junit j = new Junit();
+        int expected = -11;
         int actual = j.add2Nums(num1, num2);
         assertEquals(expected, actual);
     }
