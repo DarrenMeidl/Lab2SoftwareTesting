@@ -153,6 +153,7 @@ class JunitTest {
         assertEquals(expected, actual);
     }
 
+    //monkeyTrouble Method Tests
     @Test
     void aSmileTrueBSmileTrue(){
         System.out.println("TEST 1: aSmileT, bSmileT");
@@ -198,6 +199,16 @@ class JunitTest {
     }*/
 
 
-
+    //sleepInInt Method Tests
+    @Test
+    void weekdayTrueVacationFalse(){
+        System.out.println("TEST 1: weekdayT, vacationT");
+        boolean w = true;
+        boolean v = true;
+        Junit j = new Junit();
+        int expected = 1;
+        int actual = j.sleepInInt(w, v);
+        assertEquals(expected, actual);
+    }
 
 }
