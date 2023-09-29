@@ -201,12 +201,43 @@ class JunitTest {
 
     //sleepInInt Method Tests
     @Test
-    void weekdayTrueVacationFalse(){
+    void weekdayTrueVacationTrue(){
         System.out.println("TEST 1: weekdayT, vacationT");
         boolean w = true;
         boolean v = true;
         Junit j = new Junit();
         int expected = 1;
+        int actual = j.sleepInInt(w, v);
+        assertEquals(expected, actual);
+    }
+    @Test
+    void weekdayTrueVacationFalse(){
+        System.out.println("TEST 2: weekdayT, vacationF");
+        boolean w = true;
+        boolean v = false;
+        Junit j = new Junit();
+        int expected = 2;
+        int actual = j.sleepInInt(w, v);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void weekdayFalseVacationTrue(){
+        System.out.println("TEST 3: weekdayF, vacationT");
+        boolean w = false;
+        boolean v = true;
+        Junit j = new Junit();
+        int expected = 3;
+        int actual = j.sleepInInt(w, v);
+        assertEquals(expected, actual);
+    }
+    @Test
+    void weekdayFalseVacationFalse(){
+        System.out.println("TEST 4: weekdayF, vacationF");
+        boolean w = false;
+        boolean v = false;
+        Junit j = new Junit();
+        int expected = 4;
         int actual = j.sleepInInt(w, v);
         assertEquals(expected, actual);
     }
