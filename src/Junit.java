@@ -53,9 +53,11 @@ public class Junit {
         if (Math.abs(a) == 6 || Math.abs(b) == 6){
             return true;
         }
-        else if (Math.abs(a + b) == 6 || Math.abs(a - b) == 6){
+        else if ((Math.abs(a) + Math.abs(b)) == 6 || (Math.abs(a) - Math.abs(b)) == 6){
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
     }
 }

@@ -258,6 +258,13 @@ class JunitTest {
         assertEquals(expected, actual);
     }*/
 
+
+
+
+
+
+
+    //love6 Method Tests
     @Test
     void aEqualsSixBEqualsSix(){
         System.out.println("TEST 1: a6, b6");
@@ -269,7 +276,48 @@ class JunitTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    void aEqualsSixBEqualsTwelve(){
+        System.out.println("TEST 2: a6, b12");
+        int num1 = 6;
+        int num2 = 12;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
 
+    @Test
+    void aEqualsZeroBEqualsSix(){
+        System.out.println("TEST 3: a0, b6");
+        int num1 = 0;
+        int num2 = 6;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
 
+    @Test
+    void aEqualsThreeBEqualsThree(){
+        System.out.println("TEST 4: a3, b3");
+        int num1 = 3;
+        int num2 = 3;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aEqualsMinusThreeBEqualsMinusThree(){
+        System.out.println("TEST 4: a-3, b-3");
+        int num1 = -3;
+        int num2 = -3;
+        Junit j = new Junit();
+        boolean expected = false;
+        boolean actual = j.love6(num1, num2);
+        assertEquals(expected, actual);
+    }
 
 }
