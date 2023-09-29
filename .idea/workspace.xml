@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Ran all tests, all passed">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Wrote sumDouble method, created 4 tests for them.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
@@ -57,16 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest.minusEightPlusMinusEightEqualsMinusSixteen">
-    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lab2SoftwareTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JunitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JunitTest.minusThreePlusMinusFiveEqualsMinusEight">
     <configuration name="JunitTest.fivePlusSixEqualsEleven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,6 +88,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JunitTest.minusThreePlusMinusFiveEqualsMinusEight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2SoftwareTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="minusThreePlusMinusFiveEqualsMinusEight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JunitTest.sixPlusSixEqualsTwentyFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest.minusThreePlusMinusFiveEqualsMinusEight" />
         <item itemvalue="JUnit.JunitTest.minusEightPlusMinusEightEqualsMinusSixteen" />
         <item itemvalue="JUnit.JunitTest.minusSixPlusSixEqualsZero" />
         <item itemvalue="JUnit.JunitTest.sixPlusSixEqualsTwentyFour" />
         <item itemvalue="JUnit.JunitTest.fivePlusSixEqualsEleven" />
-        <item itemvalue="JUnit.JunitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695981485327</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Wrote sumDouble method, created 4 tests for them.">
+      <option name="closed" value="true" />
+      <created>1695983942034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695983942034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +220,7 @@
     <MESSAGE value="Created 2nd test" />
     <MESSAGE value="Created 3rd &amp; 4th test" />
     <MESSAGE value="Ran all tests, all passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ran all tests, all passed" />
+    <MESSAGE value="Wrote sumDouble method, created 4 tests for them." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote sumDouble method, created 4 tests for them." />
   </component>
 </project>

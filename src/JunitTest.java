@@ -46,7 +46,7 @@ class JunitTest {
         int expected = -11;
         int actual = j.add2Nums(num1, num2);
         assertEquals(expected, actual);
-    }*/
+    }
 
     //sumDouble Method Tests
     @Test
@@ -83,7 +83,7 @@ class JunitTest {
     }
 
     @Test
-    void minusEightPlusMinusEightEqualsMinusSixteen(){
+    void minusEightPlusMinusEightEqualsMinusThirtyTwo(){
         System.out.println("TEST 4: -8 + -8");
         int num1 = -8;
         int num2 = -8;
@@ -91,6 +91,27 @@ class JunitTest {
         int expected = -32;
         int actual = j.sumDouble(num1, num2);
         assertEquals(expected, actual);
+    }
+
+    @Test
+    void minusThreePlusMinusFiveEqualsMinusEight(){
+        System.out.println("TEST 5: -3 + -5");
+        int num1 = -3;
+        int num2 = -5;
+        Junit j = new Junit();
+        int expected = -8;
+        int actual = j.sumDouble(num1, num2);
+        assertEquals(expected, actual);
+    }*/
+
+    //sleepIn Method Test
+    @Test
+    void weekdayTrueVacationFalse(){
+        System.out.println("TEST 1: weekdayT, vacationF");
+        boolean w = true;
+        boolean v = false;
+        Junit j = new Junit();
+        boolean expected = false;
     }
 
 }
