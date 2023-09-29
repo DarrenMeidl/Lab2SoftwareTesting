@@ -154,5 +154,46 @@ class JunitTest {
     }*/
 
     @Test
+    void aSmileTrueBSmileTrue(){
+        System.out.println("TEST 1: aSmileT, bSmileT");
+        boolean a = true;
+        boolean b = true;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.monkeyTrouble(a, b);
+        assertEquals(expected, actual);
+    }
 
+    @Test
+    void aSmileTrueBSmileFalse(){
+        System.out.println("TEST 1: aSmileT, bSmileF");
+        boolean a = true;
+        boolean b = false;
+        Junit j = new Junit();
+        boolean expected = false;
+        boolean actual = j.monkeyTrouble(a, b);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aSmileFalseBSmileFalse(){
+        System.out.println("TEST 1: aSmileF, bSmileF");
+        boolean a = false;
+        boolean b = false;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.monkeyTrouble(a, b);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void aSmileFalseBSmileTrue(){
+        System.out.println("TEST 1: aSmileF, bSmileT");
+        boolean a = false;
+        boolean b = true;
+        Junit j = new Junit();
+        boolean expected = false;
+        boolean actual = j.monkeyTrouble(a, b);
+        assertEquals(expected, actual);
+    }
 }

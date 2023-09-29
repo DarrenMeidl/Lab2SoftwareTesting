@@ -28,6 +28,6 @@ public class Junit {
         else if (aSmile == false && bSmile == false){
             return true;
         }
-        return false;
+        return true;
     }
 }
