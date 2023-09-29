@@ -22,12 +22,12 @@ public class Junit {
     }
     //monkeyTrouble Q3
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile){
-        if (aSmile == true && bSmile == true){
+        if (aSmile == bSmile){
             return true;
         }
-        else if (aSmile == false && bSmile == false){
-            return true;
+        else if (aSmile != bSmile){
+            return false;
         }
-        return true;
+        return false;
     }
 }
