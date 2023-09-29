@@ -30,4 +30,18 @@ public class Junit {
         }
         return false;
     }
+
+    //sleepIn Q4
+    public int sleepInInt(boolean weekday, boolean vacation) {
+        if (weekday == true && vacation == true) {
+            return 1;
+        } else if (weekday == true || vacation == false) {
+            return 2;
+        } else if (weekday == false || vacation == true) {
+            return 3;
+        } else if (weekday == false || vacation == false) {
+            return 4;
+        }
+        return 37;
+    }
 }

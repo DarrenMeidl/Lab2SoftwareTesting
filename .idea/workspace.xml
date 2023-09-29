@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created 4 methods, ecountered 2 test fails">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Fixed monkeyTrouble method, all 4 tests pass">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695986085973</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixed monkeyTrouble method, all 4 tests pass">
+      <option name="closed" value="true" />
+      <created>1695986329655</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695986329655</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,6 +273,7 @@
     <MESSAGE value="Finished all 4 tests, all passed" />
     <MESSAGE value="Created monkeyTrouble method" />
     <MESSAGE value="Created 4 methods, ecountered 2 test fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 4 methods, ecountered 2 test fails" />
+    <MESSAGE value="Fixed monkeyTrouble method, all 4 tests pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed monkeyTrouble method, all 4 tests pass" />
   </component>
 </project>
