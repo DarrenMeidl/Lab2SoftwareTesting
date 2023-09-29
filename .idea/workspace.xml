@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Created 3rd method, writing 1st test">
+    <list default="true" id="5e5c26f3-1fa9-42ce-93ff-791880bef475" name="Changes" comment="Wrote Tests 1 - 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Junit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +56,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitTest.weekdayFalseVacationTrue">
-    <configuration name="JunitTest.minusEightPlusMinusEightEqualsMinusSixteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JunitTest">
+    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab2SoftwareTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JunitTest" />
-      <option name="METHOD_NAME" value="minusEightPlusMinusEightEqualsMinusSixteen" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="JUnit.JunitTest.weekdayFalseVacationTrue" />
         <item itemvalue="JUnit.JunitTest.weekdayTrueVacationTrue" />
         <item itemvalue="JUnit.JunitTest.weekdayTrueVacationFalse" />
         <item itemvalue="JUnit.JunitTest.minusThreePlusMinusFiveEqualsMinusEight" />
-        <item itemvalue="JUnit.JunitTest.minusEightPlusMinusEightEqualsMinusSixteen" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695985029882</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Wrote Tests 1 - 3">
+      <option name="closed" value="true" />
+      <created>1695985291687</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695985291687</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,6 +236,7 @@
     <MESSAGE value="Ran all tests, all passed" />
     <MESSAGE value="Wrote sumDouble method, created 4 tests for them." />
     <MESSAGE value="Created 3rd method, writing 1st test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 3rd method, writing 1st test" />
+    <MESSAGE value="Wrote Tests 1 - 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote Tests 1 - 3" />
   </component>
 </project>

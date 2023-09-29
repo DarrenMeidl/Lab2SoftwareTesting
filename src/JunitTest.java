@@ -129,9 +129,20 @@ class JunitTest {
 
     @Test
     void weekdayFalseVacationTrue(){
-        System.out.println("TEST 2: weekdayF, vacationT");
+        System.out.println("TEST 3: weekdayF, vacationT");
         boolean w = false;
         boolean v = true;
+        Junit j = new Junit();
+        boolean expected = true;
+        boolean actual = j.sleepIn(w, v);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void weekdayFalseVacationFalse(){
+        System.out.println("TEST 3: weekdayF, vacationF");
+        boolean w = false;
+        boolean v = false;
         Junit j = new Junit();
         boolean expected = true;
         boolean actual = j.sleepIn(w, v);
